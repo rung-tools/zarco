@@ -1,0 +1,10 @@
+{
+  "name": "zarco",
+  "version": "0.0.1",
+  "description": "Package builder for Rung",
+  "main": "dist/index.js",
+  "repository": "https://github.com/rung-tools/zarco",
+  "author": "Paulo Henrique Cuchi",
+  "license": "MIT",
+  "private": false
+}
