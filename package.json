@@ -2,9 +2,24 @@
   "name": "zarco",
   "version": "0.0.1",
   "description": "Package builder for Rung",
-  "main": "dist/index.js",
   "repository": "https://github.com/rung-tools/zarco",
   "author": "Paulo Henrique Cuchi",
+  "main": "index.js",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "prepublish": "bsb -make-world && rollup -c rollup.config.js"
+  },
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "bs-platform": "2.2.3",
+    "rollup": "0.57.1",
+    "rollup-plugin-node-resolve": "3.3.0"
+  },
+  "dependencies": {
+    "bs-zip": "0.2.1",
+    "semver": "^5.5.0"
+  }
 }
