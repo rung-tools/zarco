@@ -14,9 +14,12 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
-    "bs-platform": "^2.2.3",
-    "rollup": "^0.57.1",
-    "rollup-plugin-commonjs": "^9.1.0",
-    "rollup-plugin-node-resolve": "^3.3.0"
+    "bs-platform": "2.2.3",
+    "rollup": "0.57.1",
+    "rollup-plugin-node-resolve": "3.3.0"
+  },
+  "dependencies": {
+    "bs-zip": "0.2.1",
+    "semver": "^5.5.0"
   }
 }
